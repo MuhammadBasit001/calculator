@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Calculator</title>
+  </head>
+  <body class="flex justify-center items-center ">
+    <div class="w-[50vh] h-[70vh] mt-4 border border-2 flex bg-slate-400 justify-around flex-col items-center">
+      <h1 class="text-3xl font-bold">Calculator</h1>
+      <main class="h-[90%] w-[95%] flex items-center gap-md pt-4 flex-col" >
+        <section class="w-[100%] bg-white rounded-md">
+            <input type="text" placeholder="0" id="display-screen" class="px-2 w-[100%] py-3 border rounded-md">
+        </section>
+        <section class="flex justify-center flex-wrap gap-3 mt-2 items-center w-[100%] h-[100%]">
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">7</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">8</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">9</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">/</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">4</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">5</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">6</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">*</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">1</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">2</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">3</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">-</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">AC</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">0</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">=</button>
+            <button class="w-15 h-15 text-xl font-bold border bg-slate-200 rounded-md">+</button>
+        </section>
+      </main>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
